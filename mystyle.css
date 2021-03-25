@@ -1,0 +1,19 @@
+#listbox{
+    height: auto;
+    width: 69vw;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+}
+.mybox{
+    display: flex;
+    justify-content: center;
+}
+.mybtn{
+    width: 69vw;
+    height: 40px;
+    background-color: transparent;
+   margin-bottom: 3%;
+}

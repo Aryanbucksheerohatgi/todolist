@@ -8,6 +8,9 @@ const init = () => {
         tempattr.value = "remover(this.id)";
         let btnid = document.createAttribute("id");
         btnid.value = `${i}btn`;
+        let newclass = document.createAttribute("class");
+        newclass.value = "mybtn";
+        tempitem.setAttributeNode(newclass);
         tempitem.setAttributeNode(tempattr);
         tempitem.setAttributeNode(btnid);
         tempitem.innerText = i;
